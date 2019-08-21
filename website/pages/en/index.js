@@ -62,6 +62,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <Logo img_src={baseUrl + 'img/libra-header-logo-white.png'} />
           <ProjectTitle siteConfig={siteConfig} />
+      <span>This is a preview website build hosted on Netlify.</span>
           <PromoSection>
             <Button href={docUrl('welcome-to-libra')}>Welcome to the Developer Site</Button>
             <Button href={docUrl('the-libra-blockchain-paper.html')}>Libra Blockchain Technical Paper</Button>
